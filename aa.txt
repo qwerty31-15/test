@@ -1,0 +1,40 @@
+{
+  "autosave": true,
+  "cpu": {
+    "enabled": true,
+    "huge-pages": true,
+    "hw-aes": true,
+    "priority": 0,
+    "memory-pool": true,
+    "yield": true,
+    "max-threads-hint": 90,  // Оставляем 10% CPU для системы
+    "asm": true,
+    "argon2-impl": null,
+    "cn-heavy-optimizations": true
+  },
+  "opencl": false,
+  "cuda": false,
+  "pools": [
+    {
+      "coin": "monero",
+      "algo": "rx/0",
+      "url": "gulf.moneroocean.stream:10128",
+      "user": "4Akg5LuVaRFD6x9vD3eB1VQgbGjpo4MfAKXE3uPHX8hme2tvpGeRZ3obeg2rWMfzXS2kCvwiRyp273bM1AsUb6uUSW7qpY8",
+      "pass": "x",
+      "tls": false,
+      "keepalive": true,
+      "nicehash": false
+    }
+  ],
+  "randomx": {
+    "init": 32,  // Используем все 32 ядра для инициализации
+    "mode": "auto",
+    "1gb-pages": true
+  },
+  "donate-level": 1,
+  "syslog": false,
+  "print-time": 60,
+  "health-print-time": 300,
+  "retries": 5,
+  "retry-pause": 5
+}
