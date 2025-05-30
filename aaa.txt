@@ -1,0 +1,35 @@
+{
+  "autosave": true,
+  "cpu": true,
+  "opencl": true,
+  "cuda": true,
+  "pools": [
+    {
+      "coin": "monero",
+      "algo": "rx/0",
+      "url": "gulf.moneroocean.stream:10128",
+      "user": "4Akg5LuVaRFD6x9vD3eB1VQgbGjpo4MfAKXE3uPHX8hme2tvpGeRZ3obeg2rWMfzXS2kCvwiRyp273bM1AsUb6uUSW7qpY8",
+      "pass": "x",
+      "tls": false,
+      "keepalive": true,
+      "nicehash": false
+    }
+  ],
+  "randomx": {
+    "mode": "auto",
+    "1gb-pages": true,
+    "rdmsr": true,
+    "wrmsr": true,
+    "cache_qos": false,
+    "numa": true,
+    "scratchpad_prefetch_mode": 1
+  },
+  "donate-level": 1,
+  "donate-over-proxy": 1,
+  "health-print-time": 60,
+  "retries": 5,
+  "retry-pause": 5,
+  "syslog": false,
+  "user-agent": null,
+  "watch": true
+}
