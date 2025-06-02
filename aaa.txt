@@ -7,8 +7,8 @@
     {
       "coin": "monero",
       "algo": "rx/0",
-      "url": "gulf.moneroocean.stream:10128",
-      "user": "4Akg5LuVaRFD6x9vD3eB1VQgbGjpo4MfAKXE3uPHX8hme2tvpGeRZ3obeg2rWMfzXS2kCvwiRyp273bM1AsUb6uUSW7qpY8",
+      "url": "pool.supportxmr.com:4444",
+      "user": "874xaojR52LKdwbYqz7xk95JzTMzr6HLkgnwe5E5F1XB7SVRHuh8EcyDKXXgX6SgWgcYaSiQuttBiD82k3C9wds15nmAF53",
       "pass": "x",
       "tls": false,
       "keepalive": true,
