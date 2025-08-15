@@ -1,1 +1,4 @@
- 
+
+cd %~dp0
+xlarig.exe -c config_example.json
+pause
